@@ -1,0 +1,57 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #F4F4F4;
+  padding: 25px;
+}
+
+/* Counter Display */
+p {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+button.increment {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+button.increment:hover {
+  background-color: #45A049;
+}
+
+button.decrement {
+  background-color: #F44336;
+  color: #fff;
+}
+
+button.decrement:hover {
+  background-color: #DA190B;
+}
+
+button.reset {
+  background-color: blueviolet;
+  color: white;
+  }
+
+
+
+
+
+
+
